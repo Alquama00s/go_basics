@@ -9,7 +9,6 @@ import (
 func main() {
 	v := 2 >> 1
 	fmt.Print(v)
-	return
 	fmt.Println("starting...")
 	fmt.Println(syscall.Getpid())
 	lnk := []string{
